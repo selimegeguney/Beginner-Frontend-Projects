@@ -19,6 +19,8 @@ nav.top-nav a {
   display: inline-block;
   width: 100px;
   margin-bottom: 200px;
+  box-shadow: 0 2px 4px 0px rgba(0, 0, 0, 1);
+  font-weight: bolder;
 }
 nav.top-nav a:hover {
   background-color: rgba(211, 180, 140, 0.295);
@@ -30,13 +32,6 @@ p {
   color: rgb(255, 234, 205);
   margin: 0 250px;
 }
-h3 {
-  margin-top: 100px;
-  font-size: 32px;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-underline-offset: 7px;
-}
 img {
   width: 300px;
   height: 400px;
@@ -46,6 +41,14 @@ img:hover {
   opacity: 0.5;
   cursor: pointer;
 }
+h3 {
+  margin-top: 100px;
+  font-size: 32px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+}
+
 .bot-nav-span {
   margin-right: 40px;
   font-size: 24px;
@@ -58,4 +61,72 @@ img:hover {
 }
 a:hover .bot-nav-color {
   color: tomato;
+}
+form {
+  width: 400px;
+  /* height: 50px; */
+  color: aliceblue;
+  margin: auto;
+}
+h4 {
+  font-size: 18px;
+}
+form input {
+  width: 100%;
+  height: 50px;
+  font-size: 18px;
+  background: rgb(19, 30, 37);
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  outline: none;
+  margin-bottom: 10px;
+  /* border-color: tomato; */
+  font-weight: 20;
+}
+form input:focus {
+  border-color: tomato;
+}
+form input:focus::placeholder {
+  color: transparent;
+}
+#form {
+  background-color: rgb(19, 30, 37);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  font-family: sans-serif;
+  font-size: 18px;
+  width: 400px;
+  height: 150px;
+  resize: none;
+}
+#form::placeholder {
+  font-family: sans-serif;
+  font-size: 18px;
+  padding: 10px;
+}
+#form:focus {
+  border-color: tomato;
+}
+#form:focus::placeholder {
+  color: transparent;
+}
+#Send,
+#Top {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(211, 180, 140);
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 24px;
+  color: rgba(0, 0, 0, 0.75);
+  font-weight: 1000;
+  outline: none;
+}
+#Send:hover {
+  height: 75px;
+}
+#Top {
+  width: 100px;
+  border-radius: 20px;
+  margin-top: 10px;
 }
