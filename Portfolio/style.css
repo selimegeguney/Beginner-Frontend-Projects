@@ -1,0 +1,61 @@
+* {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-color: rgb(19, 30, 37);
+}
+h1 {
+  font-family: "Bungee Shade", cursive;
+  font-size: 48px;
+}
+nav.top-nav a {
+  padding: 10px 10px;
+  background-color: rgb(211, 180, 140);
+  border-radius: 10px;
+  margin-right: 5px;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 200px;
+}
+nav.top-nav a:hover {
+  background-color: rgba(211, 180, 140, 0.295);
+  color: tomato;
+}
+p {
+  font-size: 48px;
+  font-family: "Rampart One", cursive;
+  color: rgb(255, 234, 205);
+  margin: 0 250px;
+}
+h3 {
+  margin-top: 100px;
+  font-size: 32px;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 7px;
+}
+img {
+  width: 300px;
+  height: 400px;
+  border-radius: 20px;
+}
+img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.bot-nav-span {
+  margin-right: 40px;
+  font-size: 24px;
+  color: rgb(211, 180, 140);
+}
+.bot-nav-icons {
+  font-size: 24px;
+  color: rgb(211, 180, 140);
+  margin-right: 3px;
+}
+a:hover .bot-nav-color {
+  color: tomato;
+}

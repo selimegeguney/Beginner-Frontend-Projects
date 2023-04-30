@@ -1,0 +1,21 @@
+* {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.main {
+  padding: 600px;
+  margin-top: 0px;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-image: url("beach.jpg");
+}
+.main a {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.main a:visited {
+  color: black;
+}
