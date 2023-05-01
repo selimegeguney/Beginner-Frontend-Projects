@@ -98,6 +98,7 @@ form input:focus::placeholder {
   width: 400px;
   height: 150px;
   resize: none;
+  outline: none;
 }
 #form::placeholder {
   font-family: sans-serif;
@@ -105,7 +106,7 @@ form input:focus::placeholder {
   padding: 10px;
 }
 #form:focus {
-  border-color: tomato;
+  border: 2px solid tomato;
 }
 #form:focus::placeholder {
   color: transparent;
@@ -122,11 +123,21 @@ form input:focus::placeholder {
   font-weight: 1000;
   outline: none;
 }
-#Send:hover {
+#Send:active {
   height: 75px;
+  color: tomato;
+  cursor: pointer;
 }
+
 #Top {
   width: 100px;
   border-radius: 20px;
-  margin-top: 10px;
+}
+#Top:hover {
+  color: tomato;
+  cursor: pointer;
+}
+footer {
+  text-align: right;
+  margin: 10px 10px;
 }
