@@ -1,0 +1,68 @@
+* {
+  background-color: rgb(252, 55, 55);
+  text-align: center;
+}
+.cerceve {
+  margin-top: 60px;
+  width: 500px;
+  height: 600px;
+  border: 3px solid blue;
+  background-color: rgba(0, 0, 0, 0.171);
+  border-radius: 15px;
+  display: inline-block;
+}
+h1 {
+  background-color: transparent;
+}
+.input {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  font-family: "Courier New", Courier, monospace;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.61);
+  border-radius: 4px;
+  text-align: left;
+}
+
+.titles {
+  width: 100px;
+  background-color: transparent;
+  display: inline-block;
+
+  margin-right: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+.radio {
+  margin-bottom: 20px;
+  border: 3px solid tomato;
+}
+.gender {
+  display: inline-block;
+  width: 70px;
+  text-align: left;
+  background-color: transparent;
+}
+.sad {
+  margin-right: 263px;
+}
+#Date {
+  text-align: center;
+}
+.buttons {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+.buttons:hover {
+  color: green;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px black;
+}
+.clear-but:hover {
+  color: red;
+}
