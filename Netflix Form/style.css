@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Poppins, "sans-serif";
 }
 
 body {
@@ -41,15 +42,37 @@ body {
 .texts p {
   font-size: 18px;
 }
+.h1 {
+  position: relative;
+  display: inline-block;
+  margin: 0;
+}
 .texts .contents {
   color: aliceblue;
 }
 .form {
   position: absolute;
-  display: inline-block;
-  top: 120px;
+  /* display: flex; */
+  top: 12.5%;
   left: 27.5%;
   width: 45%;
-  height: 80%;
+  height: 85%;
   background-color: rgba(0, 0, 0, 0.637);
+}
+.form-titles {
+  height: fit-content;
+  display: block;
+  color: aliceblue;
+}
+.inputs {
+  box-sizing: border-box;
+  padding: 10px;
+  height: 40px;
+  width: 90%;
+  color: rgb(0, 0, 0);
+}
+
+.form-titles,
+.inputs {
+  margin: 10px 0 0 5%;
 }
