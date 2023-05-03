@@ -16,27 +16,69 @@
   <body>
     <div class="background">
       <img src="background.jpg" alt="background" class="image" />
-      <div class="glass"></div>
-    </div>
+      <div class="glass">
+        <div class="texts">
+          <span
+            class="h1"
+            style="font-size: 32px; font-weight: 600; color: white"
+            >NET</span
+          ><span
+            class="h1"
+            style="font-size: 32px; font-weight: 800; color: red"
+            >FLIX</span
+          >
+          <p class="contents">
+            Thank you for signing up Netflix. Tell us more about your self.
+          </p>
+        </div>
+        <div class="form">
+          <span class="form-titles" style="margin-top: 30px">Name</span>
+          <input type="text" class="inputs" placeholder=" Enter your name" />
+          <span class="form-titles" style="margin-top: 10px">Age</span>
+          <input type="number" class="inputs" placeholder=" Age" />
+          <span class="form-titles" style="margin-top: 10px">Email</span>
+          <input type="email" class="inputs" placeholder=" Enter your email" />
+          <span class="form-titles">Content Type</span>
+          <select name="Content Type" class="inputs">
+            <option value="Series">Series</option>
+            <option value="Movies">Movies</option>
+            <option value="Movies">Animations</option>
+          </select>
 
-    <div class="texts">
-      <span class="h1" style="font-size: 32px; font-weight: 600; color: white"
-        >NET</span
-      ><span class="h1" style="font-size: 32px; font-weight: 800; color: red"
-        >FLIX</span
-      >
+          <span class="form-titles">Movie Types</span>
+          <input type="checkbox" name="Action" id="Action" class="checkboxes" />
+          <label for="Action" class="checkbox-titles">Action</label><br />
+          <input type="checkbox" name="Sci-Fi" id="Sci-Fi" class="checkboxes" />
+          <label for="Sci-Fi" class="checkbox-titles">Sci-Fi</label><br />
+          <input
+            type="checkbox"
+            name="Romance"
+            id="Romance"
+            class="checkboxes"
+          />
+          <label for="Romance" class="checkbox-titles">Romance</label><br />
+          <input type="checkbox" name="Comedy" id="Comedy" class="checkboxes" />
+          <label for="Comedy" class="checkbox-titles">Comedy</label><br />
 
-      <p class="contents">
-        Thank you for signing up Netflix. Tell us more about your self.
-      </p>
-    </div>
-    <div class="form">
-      <span class="form-titles" style="margin-top: 30px">Name</span>
-      <input type="text" class="inputs" placeholder=" Enter your name" />
-      <span class="form-titles" style="margin-top: 10px">Age</span>
-      <input type="text" class="inputs" placeholder=" Age" />
-      <span class="form-titles" style="margin-top: 10px">Email</span>
-      <input type="text" class="inputs" placeholder=" Enter your email" />
+          <span class="form-titles">Gender</span>
+          <input type="radio" name="Male" id="Male" class="checkboxes" />
+          <label for="Male" class="checkbox-titles">Male</label><br />
+          <input type="radio" name="Female" id="Female" class="checkboxes" />
+          <label for="Female" class="checkbox-titles">Female</label><br />
+
+          <textarea
+            name="Comment"
+            id="comment"
+            cols="30"
+            rows="10"
+            placeholder="Any comment"
+            class="inputs"
+          ></textarea>
+          <br />
+
+          <button class="submit">SUBMIT</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

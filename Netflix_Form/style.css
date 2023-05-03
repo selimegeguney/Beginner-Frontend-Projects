@@ -54,15 +54,16 @@ body {
   position: absolute;
   /* display: flex; */
   top: 12.5%;
-  left: 27.5%;
-  width: 45%;
-  height: 85%;
+  left: 35%;
+  width: 30%;
+  height: 87.5%;
   background-color: rgba(0, 0, 0, 0.637);
 }
 .form-titles {
   height: fit-content;
   display: block;
   color: aliceblue;
+  font-weight: 600;
 }
 .inputs {
   box-sizing: border-box;
@@ -75,4 +76,41 @@ body {
 .form-titles,
 .inputs {
   margin: 10px 0 0 5%;
+}
+.checkboxes {
+  position: relative;
+  display: inline-block;
+  margin: 10px 0 0 5%;
+}
+.checkbox-titles {
+  color: aliceblue;
+  position: relative;
+  top: -1px;
+  font-size: 14px;
+  font-weight: 300;
+}
+#comment {
+  height: 100px;
+  width: 80%;
+  resize: none;
+}
+.submit {
+  display: inline-block;
+  position: absolute;
+  left: 37.5%;
+  height: 35px;
+  width: 25%;
+  border-color: transparent;
+  background-color: red;
+  border-radius: 17.5px;
+  text-align: center;
+  color: aliceblue;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 0 0 5px 2px rgba(143, 143, 143, 0.534);
+}
+.submit:active {
+  background-color: rgb(155, 0, 0);
+  color: rgb(188, 197, 204);
+  box-shadow: none;
 }
