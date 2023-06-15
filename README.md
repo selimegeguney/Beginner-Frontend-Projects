@@ -1,15 +1,15 @@
 **MY PROJECTS:**
 
-https://MilesSouth.github.io/self_study/1/ 
+https://MilesSouth.github.io//WindowsSelfStudy/1/ 
 
-https://MilesSouth.github.io/self_study/Portfolio/
+https://MilesSouth.github.io//WindowsSelfStudy/Portfolio/
 
-https://MilesSouth.github.io/self_study/ProfileCard/
+https://MilesSouth.github.io//WindowsSelfStudy/ProfileCard/
 
-https://MilesSouthl.github.io/self_study/RegistrationForm/
+https://MilesSouthl.github.io//WindowsSelfStudy/RegistrationForm/
 
-https://MilesSouth.github.io/self_study/Netflix_Form/
+https://MilesSouth.github.io/s/WindowsSelfStudy/Netflix_Form/
 
-https://MilesSouth.github.io/self_study/Calculator_apple
+https://MilesSouth.github.io//WindowsSelfStudy/Calculator_apple
 
 
