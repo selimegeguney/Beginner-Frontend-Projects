@@ -1,15 +1,15 @@
 **MY PROJECTS:**
 
-https://selimegeguney.github.io/WindowsSelfStudy/1/ 
+https://selimegeguney.github.io/Beginner-Frontend-Projects/1/ 
 
-https://selimegeguney.github.io/WindowsSelfStudy/Portfolio/
+https://selimegeguney.github.io/Beginner-Frontend-Projects/Portfolio/
 
-https://selimegeguney.github.io/WindowsSelfStudy/ProfileCard/
+https://selimegeguney.github.io/Beginner-Frontend-Projects/ProfileCard/
 
-https://selimegeguney.github.io/WindowsSelfStudy/RegistrationForm/
+https://selimegeguney.github.io/Beginner-Frontend-Projects/RegistrationForm/
 
-https://selimegeguney.github.io/WindowsSelfStudy/Netflix_Form/
+https://selimegeguney.github.io/Beginner-Frontend-Projects/Netflix_Form/
 
-https://selimegeguney.github.io/WindowsSelfStudy/Calculator_apple
+https://selimegeguney.github.io/Beginner-Frontend-Projects/Calculator_apple
 
 
